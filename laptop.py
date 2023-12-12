@@ -69,6 +69,6 @@ def write_laptops_to_csv(file_path, num_laptops=1000):
         writer.writerows(laptops)
 
 # Example usage
-csv_file_path = 'fake_laptops.csv'
+csv_file_path = 'laptops.csv'
 write_laptops_to_csv(csv_file_path)
 print(f"Laptop data written to {csv_file_path}")
